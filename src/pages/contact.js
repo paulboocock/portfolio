@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 
 export default () => (
     <Layout>
-        <Header headerText="Hello" />
+        <Header headerText="Contact" />
+        <p>Send me a <a href="https://www.linkedin.com/in/pboocock">message!</a></p>
     </Layout>
 )

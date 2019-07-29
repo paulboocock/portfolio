@@ -4,6 +4,6 @@ import Layout from "../components/layout"
 
 export default () => (
     <Layout>
-        <Header headerText="Hello" />
+        <Header headerText="About" />
     </Layout>
 )
