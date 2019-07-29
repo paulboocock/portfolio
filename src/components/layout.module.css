@@ -1,8 +1,9 @@
 .layout {
   flex: 1 0;
-  margin: 0 8rem;
-  max-width: 60rem;
-  padding: 1rem 1rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 60em;
+  padding: 1em 1em;
 }
 
 .content {
@@ -14,30 +15,47 @@
 
 footer {
   flex-shrink: 0;
-  padding: 1rem;
+  padding: 1em;
   background-color: darkgrey;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
+.social {
+  font-size: 2em;
+  margin: 0.25em;
+}
+
+a {
+  color: black;
+}
+
 header {
-  padding: 2rem;
+  padding: 2em;
   background-color: darkgrey;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3em;
   font-weight: 400;
 }
 
 h2 {
-  font-size: 2.25rem;
+  font-size: 2.25em;
   font-weight: 400;
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.75em;
   font-weight: 700;
   display: inline;
 }

@@ -2,15 +2,11 @@
     display: inline;
 }
 
-ul {
+.list {
     float: right;
 }
 
-li {
+.link {
     display: inline-block;
-    margin-right: 1rem;
-}
-
-a {
-    color: black;
+    margin-right: 1em;
 }

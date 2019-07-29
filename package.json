@@ -13,10 +13,14 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.20",
+    "@fortawesome/free-brands-svg-icons": "^5.10.0",
+    "@fortawesome/free-solid-svg-icons": "^5.10.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "gatsby": "^2.13.41",
+    "mem": ">=4.0.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "mem": ">=4.0.0"
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
