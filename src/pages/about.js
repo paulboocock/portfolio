@@ -1,9 +1,10 @@
 import React from "react"
-import Header from "../components/header"
+import PageHeader from "../components/pageHeader"
 import Layout from "../components/layout"
 
 export default () => (
     <Layout>
-        <Header headerText="About" />
+        <PageHeader headerText="About" />
+        <p>I like grey.</p>
     </Layout>
 )
