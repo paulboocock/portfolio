@@ -1,10 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 html {
-    background: lightgrey;
+    background: #f1f1f1;;
     font-family: 'Lato', sans-serif;
 }
 
 html, body, #___gatsby, div[role="group"][tabindex] {
     height: 100%
+}
+
+a {
+    transition: color .3s;
+}
+
+a:hover {
+    color: #a2a2a2;
+    transition: color .3s;
 }
