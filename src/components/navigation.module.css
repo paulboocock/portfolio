@@ -4,3 +4,7 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.linkItem {
+    margin-bottom: 6px;
+}

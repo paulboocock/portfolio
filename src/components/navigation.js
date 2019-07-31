@@ -3,19 +3,25 @@ import { Link } from "gatsby"
 
 import navigationStyles from "./navigation.module.css"
 
-const ListLink = props => (
-  <li>
+const NavLink = props => (
+  <li className={navigationStyles.linkItem}>
     <Link className={navigationStyles.link} to={props.to}>{props.children}</Link>
+  </li>
+)
+
+const ExternalLink = props => (
+  <li className={navigationStyles.linkItem}>
+    <a className={navigationStyles.link} href={props.to}>{props.children}</a>
   </li>
 )
 
 export default () => (
   <div className={navigationStyles.navigation}>
     <ul className={navigationStyles.list}>
-        <ListLink to="/">Home</ListLink>
-        <ListLink to="/about/">About</ListLink>
-        <ListLink to="/contact/">Contact</ListLink>
-        <li><a className={navigationStyles.link} href="/cv.pdf">CV</a></li>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/about/">About</NavLink>
+        <NavLink to="/contact/">Contact</NavLink>
+        <ExternalLink to="/cv.pdf">CV</ExternalLink>
     </ul>
   </div>
 )

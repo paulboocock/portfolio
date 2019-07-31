@@ -26,6 +26,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .social {
@@ -38,7 +39,7 @@ a {
 }
 
 header {
-  padding: 2.5em;
+  padding: 2.5em 0 1.5em;
   text-align: center;
 }
 
