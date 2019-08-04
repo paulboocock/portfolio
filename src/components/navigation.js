@@ -16,12 +16,10 @@ const ExternalLink = props => (
 )
 
 export default () => (
-  <div className={navigationStyles.navigation}>
-    <ul className={navigationStyles.list}>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about/">About</NavLink>
-        <NavLink to="/contact/">Contact</NavLink>
-        <ExternalLink to="/cv.pdf">CV</ExternalLink>
-    </ul>
-  </div>
+  <ul className={navigationStyles.list}>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/about/">About</NavLink>
+      <NavLink to="/contact/">Contact</NavLink>
+      <ExternalLink to="/cv.pdf">CV</ExternalLink>
+  </ul>
 )
