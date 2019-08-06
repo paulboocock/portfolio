@@ -60,11 +60,11 @@
     margin-top: 0.75em;
 }
   
-@media (min-width: 46em) {
+@media (min-width: 60em) {
 
     .card {
       flex-direction: row;
-      width: 50em;
+      width: 60em;
     }
 
     .card .meta {
